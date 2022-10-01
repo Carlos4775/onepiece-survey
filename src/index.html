@@ -1,0 +1,224 @@
+<div class="container" id="main">
+    <h1 id="title" class="text-center">ONE PIECE Survey Form</h1>
+    <p id="description" class="description text-center">
+      This survey aims to analyze the observations of one piece fans about the current and future events of this work.
+    </p>
+  <br />
+  <form id="survey-form">
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/f/f3/One_piece.png" alt="onepiecelogo" id="logo" />
+    <div class="form-group">
+      <label id="name-label" for="name">What's your name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">What's your email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >How old are you?</label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <p>Which is your favourite character?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current character</option>
+        <option value="Luffy">Monkey D. Luffy</option>
+        <option value="Sanji">Vinsmoke Sanji</option>
+        <option value="Zoro">Roronoa Zoro</option>
+        <option value="Usopp">Usopp</option>
+        <option value="Nami">Nami</option>
+        <option value="Robin">Robin</option>        
+        <option value="Chopper">Chopper</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Do you think one piece is real?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>
+        What is your favorite one piece arc?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an arc</option>
+        <option value="RDA">Romance Dawn Arc</option>
+        <option value="OTA">Orange Town Arc</option>
+        <option value="SVA">Syrup Village Arc</option>
+        <option value="APA">Arlong Park Arc</option>
+        <option value="LA">Loguetown Arc</option>
+        <option value="RMA">Reverse Mountain Arc</option>
+        <option value="WPA">Whiskey Peak Arc</option>
+        <option value="LGA">Little Garden Arc</option>
+        <option value="DIA">Drum Island Arc</option>
+        <option value="AA">Alabasta Arc</option>
+        <option value="JA">Jaya Arc</option>
+        <option value="SA">Skypiea Arc</option>
+        <option value="LRLLA">Long Ring Long Land Arc</option>
+        <option value="W7A">Water 7 Arc</option>
+        <option value="ELA">Enies Lobby Arc</option>
+        <option value="PELA">Post-Enies Lobby Arc</option>
+        <option value="TBA">Thriller Bark Arc	</option>
+        <option value="SAA">Sabaody Archipelago Arc</option>
+        <option value="ALA">Amazon Lily Arc</option>
+        <option value="IDA">Impel Down Arc</option>
+        <option value="MA">Marineford Arc</option>
+        <option value="PWA">Post-War Arc</option>
+        <option value="RSA">Return to Sabaody Arc</option>
+        <option value="FIA">Fishman Island Arc</option>
+        <option value="CRA">Caesar Retrieval Arc	</option>
+        <option value="DA">Dressrosa Arc</option>
+        <option value="ZA">Zou Arc</option>
+        <option value="WCIA">Whole Cake Island Arc</option>
+        <option value="LYA">Levely Arc</option>
+        <option value="WCA">Wano Country Arc</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        What would you like to see improved?
+      </p>
+
+      <label>
+        <input
+          name="technical-element"
+          value="plot"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Plot
+      </label>
+      <label>
+        <input
+          name="technical-element"
+          value="structure"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Structure
+      </label>
+      <label>
+        <input
+          name="technical-element"
+          value="characterization"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Characterization
+      </label>
+      <label>
+        <input
+          name="technical-element"
+          value="scenes"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Scenes
+      </label>
+      <label>
+        <input
+          name="technical-element"
+          value="visuals"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Visuals
+      </label>
+      <label>
+        <input
+          name="technical-element"
+          value="dialogue"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Dialogue
+      </label>
+      <label>
+        <input
+          name="technical-element"
+          value="conflict"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Conflict
+      </label>
+      <label>
+        <input
+          name="technical-element"
+          value="resolution"
+          type="checkbox"
+          class="input-checkbox"
+        />
+        Resolution
+      </label>
+    </div>
+
+    <div class="form-group">
+      <p>What do you think will be the end?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment about the end..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
